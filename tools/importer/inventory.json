@@ -1,0 +1,1819 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-cloud-storage/",
+          "urlHash": "1854917415ca826a13107966568a246e3fee2cf0",
+          "uuid": "18549174-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-collection/",
+          "urlHash": "24345bebd1345f731bbbd9a333447f943d47d5a1",
+          "uuid": "24345beb-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ads/",
+          "urlHash": "308d5660b1999cbfab49121804f6191494cc3cbd",
+          "uuid": "308d5660-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aam-adobe-audience-manager/",
+          "urlHash": "3bc2ef8af82e5f584cb667fa316f4ccd1a8c2886",
+          "uuid": "3bc2ef8a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/about/",
+          "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+          "uuid": "40709040-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-lake/",
+          "urlHash": "41bcb74aaac033189af444abb6857b3affa73e2d",
+          "uuid": "41bcb74a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-analytics/",
+          "urlHash": "52b5557e1ce729694f07b7f388b539be784e9888",
+          "uuid": "52b5557e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/at-adobe-target/",
+          "urlHash": "534dd216e392fa71224af75a95a582c86905ed93",
+          "uuid": "534dd216-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-pub-sub/",
+          "urlHash": "66ad030d422c6f51b8c1d20307e8a48818fd3116",
+          "uuid": "66ad030d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-display-video-360/",
+          "urlHash": "71af5a8a84010400c004629f49c33872b06c1198",
+          "uuid": "71af5a8a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/destinations/",
+          "urlHash": "881696902d5db60cd5c42bc6c5e0a7a0c0115fc3",
+          "uuid": "88169690-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-adobe-experience-platform/",
+          "urlHash": "8f663e9e5a7d1b97f235a3ab48f132869530c166",
+          "uuid": "8f663e9e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/rtcdp/",
+          "urlHash": "9171937b9bf4b8de07ea3ded379d9f7d1e9513a0",
+          "uuid": "9171937b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/latest-blog-posts/",
+          "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+          "uuid": "ac012b2c-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/cja-customer-journey-analytics/",
+          "urlHash": "bf57dd2ad7d3f971737c7392b80a9816be6d99a3",
+          "uuid": "bf57dd2a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-big-query/",
+          "urlHash": "c1c2e53d84ff9ae037a49093453433e31102bda4",
+          "uuid": "c1c2e53d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-profile/",
+          "urlHash": "c34ff8e72b85a7fe2979ba4b0702c0fa13ea8bdc",
+          "uuid": "c34ff8e7-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/links/",
+          "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+          "uuid": "cd1be4f6-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-customer-match/",
+          "urlHash": "d17359ff4ac8cc9725f85c0fba3f2394bd1e1f8f",
+          "uuid": "d17359ff-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-campaign-manager/",
+          "urlHash": "dfb5d8b2fd662a37ba41795c2b3fb54a66bbe245",
+          "uuid": "dfb5d8b2-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ad-manager/",
+          "urlHash": "ebc42c171212e91cd325bbf1957792b7a2cbb555",
+          "uuid": "ebc42c17-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-google/",
+          "urlHash": "f3f974a1678bcaa3d6fc6b6419e4057aea441009",
+          "uuid": "f3f974a1-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aa-adobe-analytics/",
+          "urlHash": "ff476711345a0bca43b783a66febf14a40d508b5",
+          "uuid": "ff476711-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 207,
+        "background": "rgb(16, 19, 20) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-cloud-storage/",
+          "urlHash": "1854917415ca826a13107966568a246e3fee2cf0",
+          "uuid": "18549174-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-collection/",
+          "urlHash": "24345bebd1345f731bbbd9a333447f943d47d5a1",
+          "uuid": "24345beb-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ads/",
+          "urlHash": "308d5660b1999cbfab49121804f6191494cc3cbd",
+          "uuid": "308d5660-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aam-adobe-audience-manager/",
+          "urlHash": "3bc2ef8af82e5f584cb667fa316f4ccd1a8c2886",
+          "uuid": "3bc2ef8a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/about/",
+          "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+          "uuid": "40709040-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-lake/",
+          "urlHash": "41bcb74aaac033189af444abb6857b3affa73e2d",
+          "uuid": "41bcb74a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-analytics/",
+          "urlHash": "52b5557e1ce729694f07b7f388b539be784e9888",
+          "uuid": "52b5557e-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/at-adobe-target/",
+          "urlHash": "534dd216e392fa71224af75a95a582c86905ed93",
+          "uuid": "534dd216-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-pub-sub/",
+          "urlHash": "66ad030d422c6f51b8c1d20307e8a48818fd3116",
+          "uuid": "66ad030d-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-display-video-360/",
+          "urlHash": "71af5a8a84010400c004629f49c33872b06c1198",
+          "uuid": "71af5a8a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/destinations/",
+          "urlHash": "881696902d5db60cd5c42bc6c5e0a7a0c0115fc3",
+          "uuid": "88169690-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-adobe-experience-platform/",
+          "urlHash": "8f663e9e5a7d1b97f235a3ab48f132869530c166",
+          "uuid": "8f663e9e-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/rtcdp/",
+          "urlHash": "9171937b9bf4b8de07ea3ded379d9f7d1e9513a0",
+          "uuid": "9171937b-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/latest-blog-posts/",
+          "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+          "uuid": "ac012b2c-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/cja-customer-journey-analytics/",
+          "urlHash": "bf57dd2ad7d3f971737c7392b80a9816be6d99a3",
+          "uuid": "bf57dd2a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-big-query/",
+          "urlHash": "c1c2e53d84ff9ae037a49093453433e31102bda4",
+          "uuid": "c1c2e53d-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-profile/",
+          "urlHash": "c34ff8e72b85a7fe2979ba4b0702c0fa13ea8bdc",
+          "uuid": "c34ff8e7-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/links/",
+          "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+          "uuid": "cd1be4f6-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-customer-match/",
+          "urlHash": "d17359ff4ac8cc9725f85c0fba3f2394bd1e1f8f",
+          "uuid": "d17359ff-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-campaign-manager/",
+          "urlHash": "dfb5d8b2fd662a37ba41795c2b3fb54a66bbe245",
+          "uuid": "dfb5d8b2-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ad-manager/",
+          "urlHash": "ebc42c171212e91cd325bbf1957792b7a2cbb555",
+          "uuid": "ebc42c17-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-google/",
+          "urlHash": "f3f974a1678bcaa3d6fc6b6419e4057aea441009",
+          "uuid": "f3f974a1-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-05-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aa-adobe-analytics/",
+          "urlHash": "ff476711345a0bca43b783a66febf14a40d508b5",
+          "uuid": "ff476711-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(16, 19, 20) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Hero",
+      "cluster": 1,
+      "source": "Hero",
+      "target": "Hero",
+      "key": "hero1",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-02-f4e770beb31540af605a2a3a471e29b26b10adbe",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/about/",
+          "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+          "uuid": "40709040-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/latest-blog-posts/",
+          "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+          "uuid": "ac012b2c-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/links/",
+          "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+          "uuid": "cd1be4f6-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards (cards3)",
+      "key": "cards3",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-01-ff4169670809806c70b29048d032adbec749b22e",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/nav[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/tag/google-cloud-storage/",
+          "urlHash": "1854917415ca826a13107966568a246e3fee2cf0",
+          "uuid": "18549174-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-collection/",
+          "urlHash": "24345bebd1345f731bbbd9a333447f943d47d5a1",
+          "uuid": "24345beb-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ads/",
+          "urlHash": "308d5660b1999cbfab49121804f6191494cc3cbd",
+          "uuid": "308d5660-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aam-adobe-audience-manager/",
+          "urlHash": "3bc2ef8af82e5f584cb667fa316f4ccd1a8c2886",
+          "uuid": "3bc2ef8a-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-lake/",
+          "urlHash": "41bcb74aaac033189af444abb6857b3affa73e2d",
+          "uuid": "41bcb74a-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-analytics/",
+          "urlHash": "52b5557e1ce729694f07b7f388b539be784e9888",
+          "uuid": "52b5557e-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/at-adobe-target/",
+          "urlHash": "534dd216e392fa71224af75a95a582c86905ed93",
+          "uuid": "534dd216-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-pub-sub/",
+          "urlHash": "66ad030d422c6f51b8c1d20307e8a48818fd3116",
+          "uuid": "66ad030d-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-display-video-360/",
+          "urlHash": "71af5a8a84010400c004629f49c33872b06c1198",
+          "uuid": "71af5a8a-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/destinations/",
+          "urlHash": "881696902d5db60cd5c42bc6c5e0a7a0c0115fc3",
+          "uuid": "88169690-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/rtcdp/",
+          "urlHash": "9171937b9bf4b8de07ea3ded379d9f7d1e9513a0",
+          "uuid": "9171937b-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/cja-customer-journey-analytics/",
+          "urlHash": "bf57dd2ad7d3f971737c7392b80a9816be6d99a3",
+          "uuid": "bf57dd2a-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-big-query/",
+          "urlHash": "c1c2e53d84ff9ae037a49093453433e31102bda4",
+          "uuid": "c1c2e53d-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-profile/",
+          "urlHash": "c34ff8e72b85a7fe2979ba4b0702c0fa13ea8bdc",
+          "uuid": "c34ff8e7-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-customer-match/",
+          "urlHash": "d17359ff4ac8cc9725f85c0fba3f2394bd1e1f8f",
+          "uuid": "d17359ff-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-campaign-manager/",
+          "urlHash": "dfb5d8b2fd662a37ba41795c2b3fb54a66bbe245",
+          "uuid": "dfb5d8b2-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ad-manager/",
+          "urlHash": "ebc42c171212e91cd325bbf1957792b7a2cbb555",
+          "uuid": "ebc42c17-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-google/",
+          "urlHash": "f3f974a1678bcaa3d6fc6b6419e4057aea441009",
+          "uuid": "f3f974a1-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aa-adobe-analytics/",
+          "urlHash": "ff476711345a0bca43b783a66febf14a40d508b5",
+          "uuid": "ff476711-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 5,
+      "source": "Embed",
+      "target": "Embed (embedVideo5)",
+      "key": "embedVideo5",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 6,
+      "source": "Header",
+      "target": "Header",
+      "key": "header6",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-cloud-storage/",
+          "urlHash": "1854917415ca826a13107966568a246e3fee2cf0",
+          "uuid": "18549174-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-collection/",
+          "urlHash": "24345bebd1345f731bbbd9a333447f943d47d5a1",
+          "uuid": "24345beb-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ads/",
+          "urlHash": "308d5660b1999cbfab49121804f6191494cc3cbd",
+          "uuid": "308d5660-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aam-adobe-audience-manager/",
+          "urlHash": "3bc2ef8af82e5f584cb667fa316f4ccd1a8c2886",
+          "uuid": "3bc2ef8a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/about/",
+          "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+          "uuid": "40709040-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-data-lake/",
+          "urlHash": "41bcb74aaac033189af444abb6857b3affa73e2d",
+          "uuid": "41bcb74a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-analytics/",
+          "urlHash": "52b5557e1ce729694f07b7f388b539be784e9888",
+          "uuid": "52b5557e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/at-adobe-target/",
+          "urlHash": "534dd216e392fa71224af75a95a582c86905ed93",
+          "uuid": "534dd216-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-pub-sub/",
+          "urlHash": "66ad030d422c6f51b8c1d20307e8a48818fd3116",
+          "uuid": "66ad030d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-display-video-360/",
+          "urlHash": "71af5a8a84010400c004629f49c33872b06c1198",
+          "uuid": "71af5a8a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/destinations/",
+          "urlHash": "881696902d5db60cd5c42bc6c5e0a7a0c0115fc3",
+          "uuid": "88169690-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-adobe-experience-platform/",
+          "urlHash": "8f663e9e5a7d1b97f235a3ab48f132869530c166",
+          "uuid": "8f663e9e-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/rtcdp/",
+          "urlHash": "9171937b9bf4b8de07ea3ded379d9f7d1e9513a0",
+          "uuid": "9171937b-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/latest-blog-posts/",
+          "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+          "uuid": "ac012b2c-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+          "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+          "uuid": "b66d157c-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/cja-customer-journey-analytics/",
+          "urlHash": "bf57dd2ad7d3f971737c7392b80a9816be6d99a3",
+          "uuid": "bf57dd2a-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-big-query/",
+          "urlHash": "c1c2e53d84ff9ae037a49093453433e31102bda4",
+          "uuid": "c1c2e53d-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-profile/",
+          "urlHash": "c34ff8e72b85a7fe2979ba4b0702c0fa13ea8bdc",
+          "uuid": "c34ff8e7-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/links/",
+          "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+          "uuid": "cd1be4f6-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-customer-match/",
+          "urlHash": "d17359ff4ac8cc9725f85c0fba3f2394bd1e1f8f",
+          "uuid": "d17359ff-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-campaign-manager/",
+          "urlHash": "dfb5d8b2fd662a37ba41795c2b3fb54a66bbe245",
+          "uuid": "dfb5d8b2-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/google-ad-manager/",
+          "urlHash": "ebc42c171212e91cd325bbf1957792b7a2cbb555",
+          "uuid": "ebc42c17-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aep-google/",
+          "urlHash": "f3f974a1678bcaa3d6fc6b6419e4057aea441009",
+          "uuid": "f3f974a1-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://garrettchung.au/tag/aa-adobe-analytics/",
+          "urlHash": "ff476711345a0bca43b783a66febf14a40d508b5",
+          "uuid": "ff476711-00-98db17321fc143291f184731da5415e7661b3f7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/header[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/latest-blog-posts/",
+          "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+          "uuid": "ac012b2c-02-f2eaeb06713004aebcc7102014e216fdfd3c89bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 8,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages8",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/links/",
+          "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+          "uuid": "cd1be4f6-02-f2eaeb06713004aebcc7102014e216fdfd3c89bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 9,
+      "source": "Carousel",
+      "target": "Carousel",
+      "key": "carousel9",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+          "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+          "uuid": "36a9b9c8-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 10,
+      "source": "Embed",
+      "target": "Embed (embedVideo10)",
+      "key": "embedVideo10",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+          "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+          "uuid": "128d8f4b-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/tag/aep-adobe-experience-platform/",
+          "urlHash": "8f663e9e5a7d1b97f235a3ab48f132869530c166",
+          "uuid": "8f663e9e-01-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 12,
+      "source": "Table",
+      "target": "Table (table12)",
+      "key": "table12",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+          "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+          "uuid": "f9372170-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 13,
+      "source": "Embed",
+      "target": "Embed (embedVideo13)",
+      "key": "embedVideo13",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+          "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+          "uuid": "5e63e2d5-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 14,
+      "source": "Cards",
+      "target": "Cards (cards14)",
+      "key": "cards14",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-04-68951c763b3d9606d5c56e9366976fcc74398eb8",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (social)",
+      "cluster": 15,
+      "source": "Embed",
+      "target": "Embed",
+      "key": "embedSocial15",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+          "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+          "uuid": "54820667-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "cluster": 16,
+      "source": "Table",
+      "target": "Table (table16)",
+      "key": "table16",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+          "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+          "uuid": "2dbc3f9e-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 17,
+      "source": "Embed",
+      "target": "Embed (embedVideo17)",
+      "key": "embedVideo17",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+          "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+          "uuid": "01226a97-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "cluster": 18,
+      "source": "Search",
+      "target": "Search (search18)",
+      "key": "search18",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+          "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+          "uuid": "4b0f8593-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 19,
+      "source": "Embed",
+      "target": "Embed (embedVideo19)",
+      "key": "embedVideo19",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+          "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+          "uuid": "d27a27a8-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 20,
+      "source": "Columns",
+      "target": "Columns",
+      "key": "columns20",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/about/",
+          "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+          "uuid": "40709040-02-f2eaeb06713004aebcc7102014e216fdfd3c89bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 21,
+      "source": "Video",
+      "target": "Video",
+      "key": "video21",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+          "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+          "uuid": "2e652c4b-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 22,
+      "source": "Embed",
+      "target": "Embed (embedVideo22)",
+      "key": "embedVideo22",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+          "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+          "uuid": "9e95d5c8-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "cluster": 23,
+      "source": "Search",
+      "target": "Search (search23)",
+      "key": "search23",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+          "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+          "uuid": "1ba326a1-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 24,
+      "source": "Embed",
+      "target": "Embed (embedVideo24)",
+      "key": "embedVideo24",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/next-level-rtcdp/",
+          "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+          "uuid": "615175ce-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 25,
+      "source": "Embed",
+      "target": "Embed (embedVideo25)",
+      "key": "embedVideo25",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+          "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+          "uuid": "1819218d-03-db6a753cf0bcaad0b223b1b5cad500e8a1303fd5",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 26,
+      "source": "Cards",
+      "target": "Cards (cards26)",
+      "key": "cards26",
+      "instances": [
+        {
+          "url": "https://garrettchung.au/",
+          "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+          "uuid": "fe836c09-02-f99fe35499f35e2a8a00c478d4b59195e1effbae",
+          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://garrettchung.au/aep-google-part-g-publisher-retail-media-destinations/",
+      "urlHash": "01226a97772a89dc9f3ef9136b4b0f7b92ba8165",
+      "uuid": "01226a97-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/forgotten-features-of-adobe-analytics/",
+      "urlHash": "128d8f4b2dbfe7a2db62b52330e90b0265131057",
+      "uuid": "128d8f4b-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-part-c-google-analytics-google-ads-enhanced-conversions/",
+      "urlHash": "1819218d92c86f9b0d741180b66c6444bae14cf6",
+      "uuid": "1819218d-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-cloud-storage/",
+      "urlHash": "1854917415ca826a13107966568a246e3fee2cf0",
+      "uuid": "18549174-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/data-governance-overview-in-adobe-rtcdp/",
+      "urlHash": "1ba326a1eb19ea9c61b7907d4f1fb789e30df300",
+      "uuid": "1ba326a1-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aep-data-collection/",
+      "urlHash": "24345bebd1345f731bbbd9a333447f943d47d5a1",
+      "uuid": "24345beb-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-data-lake-vs-profile/",
+      "urlHash": "2dbc3f9ecb41228a86d4f70dbcc019786642817a",
+      "uuid": "2dbc3f9e-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-part-b-google-cloud-platform/",
+      "urlHash": "2e652c4b2d9d17184aec852b2068df0eaf631b62",
+      "uuid": "2e652c4b-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-ads/",
+      "urlHash": "308d5660b1999cbfab49121804f6191494cc3cbd",
+      "uuid": "308d5660-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/start-with-the-end-in-mind-adobe-real-time-cdp-success/",
+      "urlHash": "36a9b9c80bea9bd227c5a48348303af1460a024d",
+      "uuid": "36a9b9c8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aam-adobe-audience-manager/",
+      "urlHash": "3bc2ef8af82e5f584cb667fa316f4ccd1a8c2886",
+      "uuid": "3bc2ef8a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/about/",
+      "urlHash": "407090401d1a28d1ed109d7fe65c357f359f495e",
+      "uuid": "40709040-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aep-data-lake/",
+      "urlHash": "41bcb74aaac033189af444abb6857b3affa73e2d",
+      "uuid": "41bcb74a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-data-collection-gtm/",
+      "urlHash": "4b0f859339e6aa5cc56345bb19ba8efd92ffd9db",
+      "uuid": "4b0f8593-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-analytics/",
+      "urlHash": "52b5557e1ce729694f07b7f388b539be784e9888",
+      "uuid": "52b5557e-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/at-adobe-target/",
+      "urlHash": "534dd216e392fa71224af75a95a582c86905ed93",
+      "uuid": "534dd216-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/data-deficiency-kills-ai-ml-use-cases/",
+      "urlHash": "54820667ae1a3deed17d4a9d7e46e7389501068e",
+      "uuid": "54820667-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-part-d-ingesting-google-data/",
+      "urlHash": "5e63e2d5bd56e36462d3747767660b83ecd70890",
+      "uuid": "5e63e2d5-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/next-level-rtcdp/",
+      "urlHash": "615175ce582537bde74d06588e628180de4e2a08",
+      "uuid": "615175ce-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-pub-sub/",
+      "urlHash": "66ad030d422c6f51b8c1d20307e8a48818fd3116",
+      "uuid": "66ad030d-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-display-video-360/",
+      "urlHash": "71af5a8a84010400c004629f49c33872b06c1198",
+      "uuid": "71af5a8a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/destinations/",
+      "urlHash": "881696902d5db60cd5c42bc6c5e0a7a0c0115fc3",
+      "uuid": "88169690-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aep-adobe-experience-platform/",
+      "urlHash": "8f663e9e5a7d1b97f235a3ab48f132869530c166",
+      "uuid": "8f663e9e-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/rtcdp/",
+      "urlHash": "9171937b9bf4b8de07ea3ded379d9f7d1e9513a0",
+      "uuid": "9171937b-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-part-f-google-analytics-reporting-with-rtcdp-audiences/",
+      "urlHash": "9e95d5c8b1e428e765f2333dcc19b37cb275c59b",
+      "uuid": "9e95d5c8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/latest-blog-posts/",
+      "urlHash": "ac012b2c10884201bf490b99f45ab5da06bf790b",
+      "uuid": "ac012b2c-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/day-in-the-life-of-an-audience-manager-admin-in-real-time-cdp/",
+      "urlHash": "b66d157c6503862eb30b655dd2bc437ba7dd8e16",
+      "uuid": "b66d157c-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/cja-customer-journey-analytics/",
+      "urlHash": "bf57dd2ad7d3f971737c7392b80a9816be6d99a3",
+      "uuid": "bf57dd2a-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-big-query/",
+      "urlHash": "c1c2e53d84ff9ae037a49093453433e31102bda4",
+      "uuid": "c1c2e53d-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aep-profile/",
+      "urlHash": "c34ff8e72b85a7fe2979ba4b0702c0fa13ea8bdc",
+      "uuid": "c34ff8e7-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/links/",
+      "urlHash": "cd1be4f65de70495dce6188f3b48aa67d34ce8d2",
+      "uuid": "cd1be4f6-03-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-customer-match/",
+      "urlHash": "d17359ff4ac8cc9725f85c0fba3f2394bd1e1f8f",
+      "uuid": "d17359ff-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/day-in-the-life-of-adobe-analytics-admin-in-customer-journey-analytics/",
+      "urlHash": "d27a27a8bd06c65fd7168c625334019725725a76",
+      "uuid": "d27a27a8-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-campaign-manager/",
+      "urlHash": "dfb5d8b2fd662a37ba41795c2b3fb54a66bbe245",
+      "uuid": "dfb5d8b2-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/google-ad-manager/",
+      "urlHash": "ebc42c171212e91cd325bbf1957792b7a2cbb555",
+      "uuid": "ebc42c17-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aep-google/",
+      "urlHash": "f3f974a1678bcaa3d6fc6b6419e4057aea441009",
+      "uuid": "f3f974a1-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/aep-google-part-e-activating-on-advertisers-destination/",
+      "urlHash": "f93721704824f31cc6f1bd8c5d5010accc566f51",
+      "uuid": "f9372170-04-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/",
+      "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+      "uuid": "fe836c09-03-c3c0026d9a6990967c969bac73f6e1e737bb4725",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://garrettchung.au/",
+      "urlHash": "fe836c095cc9e271b96d5ec948d11bf033b63e3e",
+      "uuid": "fe836c09-05-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://garrettchung.au/tag/aa-adobe-analytics/",
+      "urlHash": "ff476711345a0bca43b783a66febf14a40d508b5",
+      "uuid": "ff476711-02-9da96b64c3f2ae7064754430ef1123be273c0190",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]/footer[1]",
+      "section": "section-1"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(16, 19, 20) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 97
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(238, 238, 238) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 15
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 41
+    }
+  ]
+}
