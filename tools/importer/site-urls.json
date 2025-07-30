@@ -1,0 +1,29 @@
+{
+  "originUrl": "https://www.spark.co.nz",
+  "lastCrawled": "https://www.spark.co.nz/shop/apple-shop/iphone/iphone-16-pro",
+  "urls": [
+    {
+      "url": "https://www.spark.co.nz/shop/apple-shop/iphone/iphone-16-pro",
+      "source": "CRAWL",
+      "targetPath": "/shop/apple-shop/iphone/iphone-16-pro",
+      "id": "a35c60b2ffc4ce2ca36857b14478e2fac2f05cfa"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [
+      "/shop/apple-shop/iphone/iphone-16-pro",
+      "/shop/apple-shop/iphone/iphone-16-pro/**"
+    ],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {},
+    "strategiesAttempted": [
+      "CRAWL"
+    ]
+  },
+  "extractionErrors": []
+}
