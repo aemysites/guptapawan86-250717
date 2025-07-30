@@ -1,56 +1,72 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Find content containers
-  const bento = element.querySelector('.bento-box');
-  if (!bento) return;
-  const bentoboxItem = bento.querySelector('.bentobox-item');
-  if (!bentoboxItem) return;
-  // Get both columns (left = text, right = image)
-  const columns = bentoboxItem.querySelectorAll(':scope > .row > .column');
-  let textCol, imageCol;
-  // Usually left column contains the text, right column contains image
-  if (columns.length >= 2) {
-    textCol = columns[0];
-    imageCol = columns[1];
-  } else {
-    // fallback to class selectors
-    textCol = bentoboxItem.querySelector('.column.large-6.medium-6.small-12');
-    imageCol = bentoboxItem.querySelector('.column.large-6.medium-6.small-12.y0698D3');
+  // Header row as specified in the example
+  const headerRow = ['Hero (hero12)'];
+
+  // Extract the bento-box containing the main content
+  const bentoBox = element.querySelector('.bento-box');
+  if (!bentoBox) {
+    // If not found, don't proceed
+    return;
   }
 
-  // 2. Extract the image for the image row
-  let imageEl = null;
-  if (imageCol) {
-    const picture = imageCol.querySelector('picture');
-    if (picture) {
-      imageEl = picture.querySelector('img');
+  // The .bentobox-item is the main row with two columns
+  const bentoItem = bentoBox.querySelector('.bentobox-item');
+  if (!bentoItem) {
+    return;
+  }
+
+  // Find the two main columns: text (left) and image (right)
+  const columns = bentoItem.querySelectorAll(':scope > .row > .column');
+  if (columns.length < 2) {
+    return;
+  }
+  const textCol = columns[0];
+  const imageCol = columns[1];
+
+  // --- Row 2: Background/Image ---
+  // Use the <picture> if available, otherwise the first <img>
+  let picture = imageCol.querySelector('picture');
+  if (!picture) {
+    picture = imageCol.querySelector('img');
+  }
+  // If image is missing, row should be empty
+  const row2 = [picture || ''];
+
+  // --- Row 3: Heading, subheading, description, CTA link ---
+  // Get eyebrow (h3)
+  const eyebrow = textCol.querySelector('h3');
+
+  // Get headline (p.copy.n402AA3)
+  const headline = textCol.querySelector('p.n402AA3');
+
+  // Get description (the next p after headline that is not the headline itself, and not visually hidden)
+  let description = null;
+  if (headline) {
+    let next = headline.nextElementSibling;
+    while (next) {
+      if (next.tagName.toLowerCase() === 'p' && !next.classList.contains('n402AA3') && !next.classList.contains('visuallyhidden')) {
+        description = next;
+        break;
+      }
+      next = next.nextElementSibling;
     }
   }
 
-  // 3. Extract structured text content for the content row
-  const textContent = [];
-  if (textCol) {
-    // Eyebrow/heading
-    const title = textCol.querySelector('h3');
-    if (title) textContent.push(title);
-    // Headline (bigger)
-    const subheading = textCol.querySelector('p.n402AA3');
-    if (subheading) textContent.push(subheading);
-    // Description
-    const description = textCol.querySelector('p.helvetica-neue, p.tE894C7');
-    if (description) textContent.push(description);
-    // CTA (standalone link)
-    const cta = textCol.querySelector('a.link-standalone');
-    if (cta) textContent.push(cta);
-  }
+  // Get CTA link (the first a)
+  const cta = textCol.querySelector('a');
 
-  // Compose the table per specification
-  const headerRow = ['Hero (hero12)'];
-  const imageRow = [imageEl ? imageEl : ''];
-  const textRow = [textContent.length > 0 ? textContent : ''];
-  const cells = [headerRow, imageRow, textRow];
+  // Compose all found content in order
+  const content = [];
+  if (eyebrow) content.push(eyebrow);
+  if (headline) content.push(headline);
+  if (description) content.push(description);
+  if (cta) content.push(cta);
+
+  const row3 = [content];
+
+  // Compose block table
+  const cells = [headerRow, row2, row3];
   const table = WebImporter.DOMUtils.createTable(cells, document);
-
-  // Replace the original element
   element.replaceWith(table);
 }

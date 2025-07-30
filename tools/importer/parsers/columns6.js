@@ -1,35 +1,48 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row as specified
-  const headerRow = ['Columns (columns6)'];
+  // Find the main compare-row (should be direct child)
+  const row = element.querySelector(':scope > .compare-row');
+  if (!row) {
+    // fallback: replace whole element as single cell
+    const table = WebImporter.DOMUtils.createTable([
+      ['Columns (columns6)'],
+      [element]
+    ], document);
+    element.replaceWith(table);
+    return;
+  }
 
-  // Find all visible column cells (role="cell")
-  const columns = Array.from(element.querySelectorAll(':scope > .compare-row > .compare-column[role="cell"]'))
-    .filter(col => {
-      const style = (col.getAttribute('style') || '').toLowerCase();
-      return !(style.includes('display: none') || style.includes('visibility: hidden'));
-    });
-
-  // For each visible column, collect ALL content (including text nodes and elements)
-  const contentRow = columns.map(col => {
-    // Collect all children (including text nodes, not just elements)
-    const nodes = Array.from(col.childNodes);
-    // If there's only one node, use it directly
-    if (nodes.length === 1) {
-      return nodes[0];
-    } else if (nodes.length > 1) {
-      // Wrap multiple nodes in a <div>
-      const wrapper = document.createElement('div');
-      nodes.forEach(node => wrapper.appendChild(node));
-      return wrapper;
-    } else {
-      // If the column is empty, return an empty string
-      return '';
-    }
+  // Gather all visible compare-column(s), preserving order
+  const columns = Array.from(row.querySelectorAll(':scope > .compare-column'));
+  const visibleColumns = columns.filter(col => {
+    const style = col.getAttribute('style') || '';
+    return !/display:\s*none/.test(style) && !/visibility:\s*hidden/.test(style);
   });
 
-  // Build the table
-  const cells = [headerRow, contentRow];
+  // For each visible column, grab its full content (all child nodes)
+  const cellElements = visibleColumns.map(col => {
+    // If the column has no children, return it as is
+    if (!col.childNodes.length) return col;
+    // If the column has a single child, return that child (preserve text/figures)
+    if (col.childNodes.length === 1) return col.firstChild;
+    // If the column has multiple child nodes, wrap them in a fragment to preserve all content
+    const frag = document.createDocumentFragment();
+    Array.from(col.childNodes).forEach(node => frag.appendChild(node));
+    return frag;
+  });
+
+  // Build the block table: first row = header, second row = each column's content
+  const cells = [
+    ['Columns (columns6)'],
+    cellElements
+  ];
+
   const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Set header colspan to match number of columns
+  const headerRow = table.querySelector('tr:first-child');
+  if (headerRow && headerRow.children.length === 1) {
+    headerRow.children[0].setAttribute('colspan', cellElements.length);
+  }
+
   element.replaceWith(table);
 }

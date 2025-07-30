@@ -1,29 +1,22 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header as per instructions
+  // Table (table5) block header
   const headerRow = ['Table (table5)'];
 
-  // We want to include the selector table with dropdowns as the core block cell
-  // This is the div.compare.selector-table.with-fullwidthrowheader
-  // In the provided HTML this is the second child div of the top-level element
+  // Find the selector table that contains the dropdowns and all relevant text
+  const selectorTable = element.querySelector('.selector-table.with-fullwidthrowheader[role="rowgroup"]');
 
-  // Defensive: If element has no children, replace with just the header row
-  const children = element.querySelectorAll(':scope > div');
-  let contentCell = null;
-  for (const child of children) {
-    if (child.classList && child.classList.contains('compare') && child.classList.contains('selector-table')) {
-      contentCell = child;
-      break;
-    }
-  }
-  // If not found, just use the whole element as fallback (edge case)
-  if (!contentCell) contentCell = element;
+  // If found, include the entire selector table as a single cell
+  // If not found, fallback to the original element (should not usually happen)
+  const tableContent = selectorTable || element;
 
-  const cells = [
-    headerRow,
-    [contentCell]
-  ];
+  // Second row, single cell containing all the dropdowns and their associated labels/text (all content)
+  const contentRow = [tableContent];
 
-  const block = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(block);
+  // Compose final table structure
+  const rows = [headerRow, contentRow];
+
+  // Create the block table and replace the original element
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }
