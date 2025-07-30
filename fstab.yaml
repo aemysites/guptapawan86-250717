@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://adobe.sharepoint.com/:f:/r/sites/AEMDemos/Shared%20Documents/sites/aemy-sites/guptapawan86-250717
+  /:
+    url: "https://author-p137117-e1400624.adobeaemcloud.com/bin/franklin.delivery/guptapawan86/spark-iphone/main"
+    type: "markup"
+    suffix: ".html"
