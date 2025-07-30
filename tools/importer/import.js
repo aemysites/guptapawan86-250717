@@ -11,18 +11,18 @@
  */
 /* global WebImporter */
 /* eslint-disable no-console */
-import table5Parser from './parsers/table5.js';
-import cards10Parser from './parsers/cards10.js';
-import hero12Parser from './parsers/hero12.js';
-import columns7Parser from './parsers/columns7.js';
-import cards4Parser from './parsers/cards4.js';
 import columns11Parser from './parsers/columns11.js';
-import tabs2Parser from './parsers/tabs2.js';
-import columns6Parser from './parsers/columns6.js';
+import cards10Parser from './parsers/cards10.js';
+import hero3Parser from './parsers/hero3.js';
+import hero12Parser from './parsers/hero12.js';
 import table9Parser from './parsers/table9.js';
 import columns8Parser from './parsers/columns8.js';
+import cards4Parser from './parsers/cards4.js';
 import columns13Parser from './parsers/columns13.js';
-import hero3Parser from './parsers/hero3.js';
+import table5Parser from './parsers/table5.js';
+import columns7Parser from './parsers/columns7.js';
+import tabs2Parser from './parsers/tabs2.js';
+import columns6Parser from './parsers/columns6.js';
 import headerParser from './parsers/header.js';
 import metadataParser from './parsers/metadata.js';
 import cleanupTransformer from './transformers/cleanup.js';
@@ -39,18 +39,18 @@ import {
 
 const parsers = {
   metadata: metadataParser,
-  table5: table5Parser,
-  cards10: cards10Parser,
-  hero12: hero12Parser,
-  columns7: columns7Parser,
-  cards4: cards4Parser,
   columns11: columns11Parser,
-  tabs2: tabs2Parser,
-  columns6: columns6Parser,
+  cards10: cards10Parser,
+  hero3: hero3Parser,
+  hero12: hero12Parser,
   table9: table9Parser,
   columns8: columns8Parser,
+  cards4: cards4Parser,
   columns13: columns13Parser,
-  hero3: hero3Parser,
+  table5: table5Parser,
+  columns7: columns7Parser,
+  tabs2: tabs2Parser,
+  columns6: columns6Parser,
   ...customParsers,
 };
 

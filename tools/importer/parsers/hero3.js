@@ -1,70 +1,59 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper: get first descendant picture/img for background image
-  function getBackgroundImage() {
-    // Background image is in .q540661 (usually a picture)
-    const bg = element.querySelector('.q540661 picture, .q540661 img');
-    return bg || null;
+  // Helper to find the first picture (background image) in the q540661 row
+  let backgroundPicture = null;
+  const bgRow = element.querySelector('.row.q540661');
+  if (bgRow) {
+    const bgPicture = bgRow.querySelector('picture');
+    if (bgPicture) backgroundPicture = bgPicture;
   }
 
-  // Helper: get foreground/hero device image
-  function getForegroundHeroImage() {
-    // Hero device image is in .e7AFD3F
-    const fg = element.querySelector('.e7AFD3F picture, .e7AFD3F img');
-    return fg || null;
-  }
-
-  // Helper: get logo/title image (likely in h2 > picture)
-  function getLogoHeading() {
-    const logo = element.querySelector('.fDD71ED h2');
-    return logo || null;
-  }
-
-  // Helper: get headline image (usually in .b56655F)
-  function getHeadlineImage() {
-    const headline = element.querySelector('.b56655F picture, .b56655F img');
-    return headline || null;
-  }
-
-  // Helper: get cta row content (paragraph and links)
-  function getCtaBlock() {
-    const ctaRow = element.querySelector('.m1D2BFA');
-    if (!ctaRow) return null;
-    // Get the paragraph
-    const p = ctaRow.querySelector('p');
-    // Get all CTA links
-    const links = Array.from(ctaRow.querySelectorAll('a'));
-    // Push only if exists
-    const contents = [];
-    if (p) contents.push(p);
-    if (links.length) contents.push(...links);
-    return contents.length ? contents : null;
-  }
-
-  // Compose background cell (2nd row)
-  const backgroundImg = getBackgroundImage();
-  // Cell should be empty string if not present
-  const backgroundCell = backgroundImg ? [backgroundImg] : '';
-
-  // Compose content cell (3rd row): logo/title, headline, hero, cta
+  // Compose the content cell (main headline area)
+  // This includes in order:
+  // - logo (picture in .row.fDD71ED)
+  // - headline (picture in .row.b56655F)
+  // - hero image (picture in .row.e7AFD3F)
+  // - text (p) and CTA buttons (a) from .row.m1D2BFA
   const contentCell = [];
-  const logo = getLogoHeading();
-  if (logo) contentCell.push(logo);
-  const headline = getHeadlineImage();
-  if (headline) contentCell.push(headline);
-  const foregroundHero = getForegroundHeroImage();
-  if (foregroundHero) contentCell.push(foregroundHero);
-  const ctaBlock = getCtaBlock();
-  if (ctaBlock) contentCell.push(...ctaBlock);
 
-  // Compose the table structure
-  const cells = [
+  // logo
+  const logoRow = element.querySelector('.row.fDD71ED');
+  if (logoRow) {
+    const logoPicture = logoRow.querySelector('picture');
+    if (logoPicture) contentCell.push(logoPicture);
+  }
+  // headline
+  const headlineRow = element.querySelector('.row.b56655F');
+  if (headlineRow) {
+    const headlinePicture = headlineRow.querySelector('picture');
+    if (headlinePicture) contentCell.push(headlinePicture);
+  }
+  // hero (the big phone)
+  const heroRow = element.querySelector('.row.e7AFD3F');
+  if (heroRow) {
+    const heroPicture = heroRow.querySelector('picture');
+    if (heroPicture) contentCell.push(heroPicture);
+  }
+  // CTAs and subheading, all in .row.m1D2BFA > .column
+  const ctaRow = element.querySelector('.row.m1D2BFA');
+  if (ctaRow) {
+    const ctaCol = ctaRow.querySelector('.column');
+    if (ctaCol) {
+      // Add all non-empty elements (e.g. p, a)
+      Array.from(ctaCol.children).forEach(child => {
+        if (child.tagName === 'DIV' && child.textContent.trim() === '') return;
+        contentCell.push(child);
+      });
+    }
+  }
+
+  // Ensure at least one element is present in contentCell (should always be the case)
+
+  const tableRows = [
     ['Hero (hero3)'],
-    [backgroundCell],
-    [contentCell.length ? contentCell : ''],
+    [backgroundPicture ? backgroundPicture : ''],
+    [contentCell]
   ];
-
-  // Create and replace
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+  const block = WebImporter.DOMUtils.createTable(tableRows, document);
   element.replaceWith(block);
 }

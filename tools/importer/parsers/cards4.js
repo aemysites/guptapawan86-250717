@@ -1,66 +1,51 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the list of cards
-  const cardsList = element.querySelector('ul[role="list"]');
-  if (!cardsList) return;
-  const cardItems = Array.from(cardsList.querySelectorAll(':scope > li'));
-  const rows = [['Cards (cards4)']];
+  // 1. Find the list of cards
+  const cardList = element.querySelector('ul.list');
+  if (!cardList) return;
 
-  cardItems.forEach((li) => {
-    // IMAGE: Find first <img> in the card
-    let image = li.querySelector('img');
-    let imageEl = null;
-    if (image) {
-      imageEl = image.closest('picture') || image;
-    }
-    // TEXT: Collect all <p> and <span.copy> in card (in visual order)
-    // Identify the best text container (deepest .bentobox-item, .bento-box, or .column in li; fallback to li)
-    let contentContainer = li.querySelector('.bentobox-item,.bento-box,.column') || li;
-    // Get all <p> and <span.copy> in visual order
+  const cards = Array.from(cardList.children).filter(li => li.matches('li'));
+
+  const cells = [['Cards (cards4)']];
+
+  cards.forEach(card => {
+    // IMAGE: Find first <img> in card
+    let img = card.querySelector('picture img');
+
+    // TEXT: Find all relevant text blocks (p, span.copy)
+    let textColumn = card.querySelector('.bento-box, .bentobox-item, .column');
     let textNodes = [];
-    let walk = (node) => {
-      node.childNodes.forEach((child) => {
-        if (child.nodeType === 1) {
-          if (child.matches('p')) textNodes.push(child);
-          else if (child.matches('span.copy')) textNodes.push(child);
-          else walk(child);
-        }
-      });
-    };
-    walk(contentContainer);
-    // If no <p> or <span.copy>, try to get all <span> with text
-    if (textNodes.length === 0) {
-      let moreSpans = Array.from(contentContainer.querySelectorAll('span')).filter(s=>s.textContent.trim());
-      textNodes = moreSpans.length ? moreSpans : [];
+    if (textColumn) {
+      // Prioritize <p> and <span class="copy">
+      textNodes = Array.from(textColumn.querySelectorAll('p, span.copy'));
     }
-    // Some cards contain a compare/selector panel; include these if present
-    const comparePanel = contentContainer.querySelector('.upgraders-select-label')?.closest('div');
-    let extra = [];
-    if (comparePanel) {
-      // Include comparePanel and its sibling rows (stat tables etc.)
-      extra.push(comparePanel);
-      let next = comparePanel.nextElementSibling;
-      while (next && next.matches('.selector-element-gallery, .row, .d82C4C2, .w16245D, .row, .column')) {
-        extra.push(next);
-        next = next.nextElementSibling;
-      }
+    if (!textNodes.length) {
+      // Fallback: all <p> and <span class="copy"> under card
+      textNodes = Array.from(card.querySelectorAll('p, span.copy'));
     }
-    // Merge text and extras
-    let cellContent = [];
-    if (textNodes.length) cellContent = [...textNodes];
-    if (extra.length) cellContent.push(...extra);
-    if (cellContent.length === 0) {
-      // fallback: whole text content in a <p> if nothing else
-      const fallback = document.createElement('p');
-      fallback.textContent = contentContainer.textContent.trim();
-      cellContent.push(fallback);
+    // Remove visuallyhidden
+    textNodes = textNodes.filter(n => !n.classList.contains('visuallyhidden'));
+    // Fallback: if no nodes, pick all <p> or <span>
+    if (!textNodes.length) {
+      textNodes = Array.from(card.querySelectorAll('p, span'));
     }
-    // Only use array if >1 nodes
-    let textCell = cellContent.length === 1 ? cellContent[0] : cellContent;
-    // Add to rows
-    rows.push([imageEl, textCell]);
+
+    let textContent = null;
+    if (textNodes.length === 1) {
+      textContent = textNodes[0];
+    } else if (textNodes.length > 1) {
+      // Use a fragment with all text nodes in-order (not clones)
+      const frag = document.createDocumentFragment();
+      textNodes.forEach(node => frag.appendChild(node));
+      textContent = frag;
+    }
+
+    cells.push([
+      img,
+      textContent
+    ]);
   });
 
-  const table = WebImporter.DOMUtils.createTable(rows, document);
+  const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

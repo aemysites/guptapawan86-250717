@@ -1,34 +1,30 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to extract the main card content from each column
-  function extractColumnContent(column) {
-    const bentoBox = column.querySelector('.bento-box');
-    if (bentoBox) {
-      const bentoItem = bentoBox.querySelector('.bentobox-item');
-      if (bentoItem) return bentoItem;
-      return bentoBox;
-    }
-    return column;
-  }
+  // 1. Columns (columns11) block: extract two columns, each containing its content box
+  // Each column is a direct child of the element (with class 'column large-6 small-12 ...')
 
   // Get all top-level columns
-  const columns = Array.from(element.querySelectorAll(':scope > .column'));
-  if (columns.length === 0) {
-    // fallback: use all direct children
-    columns.push(...element.children);
-  }
+  const columns = Array.from(element.querySelectorAll(':scope > div'));
 
-  // Extract content for each column
-  const rowCells = columns.map(col => extractColumnContent(col));
+  // For each column, find the main content area -- the bentobox-item (or fallback to bentobox)
+  const contentCells = columns.map(col => {
+    // look for .bento-box > .bentobox-item as the main content container
+    const bentoBox = col.querySelector('.bento-box');
+    if (bentoBox) {
+      const bentoItem = bentoBox.querySelector('.bentobox-item');
+      // Defensive: fallback to bentoBox if no bentoItem
+      return bentoItem || bentoBox;
+    }
+    // fallback: if empty, just return an empty div
+    return document.createElement('div');
+  });
 
-  // Header row must have the same number of columns as the content row
-  const headerRow = ['Columns (columns11)'];
-  while (headerRow.length < rowCells.length) {
-    headerRow.push('');
-  }
+  // Table format: header row, then one row with the two columns
+  const table = WebImporter.DOMUtils.createTable([
+    ['Columns (columns11)'],
+    contentCells
+  ], document);
 
-  const cells = [headerRow, rowCells];
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-
+  // Replace the original element with the block
   element.replaceWith(table);
 }
